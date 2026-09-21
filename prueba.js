@@ -56,12 +56,17 @@ function saludar(nombre) {
 */
 
 const alumno = {
-    nombre: "Javier",
+    nombre: "Ana",
     edad: 21,
-    ciclo: "2º DAM",
+    ciclo: "DAM",
     modulos: ["Desarrollo de Interfaces", "Acceso a Datos", "Android"],
 }
 
 alumno.edad = 21;
 alumno.modulos.push("Inglés");
 alumno.modulos.length
+
+console.log(
+    `$()
+    `
+)
