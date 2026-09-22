@@ -1,4 +1,4 @@
-import { StyleSheet, Text, View } from "react-native";
+import { Image, StyleSheet, Text, View } from "react-native";
 
 const contacto = {
     nombre: "Laura Pérez",
@@ -11,7 +11,9 @@ const contacto = {
 export default function Index() {
     return (
         <View style={styles.container}>
-            <Text >Nombre: {contacto.nombre}</Text>
+            <Image source={{uri: "https://i.pravatar.cc/150?img=20"}}
+            style={styles.foto} />
+            <Text style={styles.nombre}>{contacto.nombre}</Text>
             <Text>Telefono: {contacto.telefono}</Text>
             <Text>Email: {contacto.email}</Text>
             <Text>Ciudad: {contacto.ciudad}</Text>
@@ -28,5 +30,11 @@ const styles = StyleSheet.create({
 
     nombre: {
         fontSize: 50
+    },
+
+    foto:{
+        height: 150,
+        width: 150,
+        borderRadius: 20
     }
 });
