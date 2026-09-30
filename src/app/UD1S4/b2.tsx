@@ -12,11 +12,9 @@ export default function App() {
     return (
         <View style={{ marginTop: 60, padding: 20, alignItems: "center" }}>
             <Text style={{ fontSize: 30 }}>{contador}</Text>
-            <Button title="+1" onPress={sumar} />
+            <Button title="+1" onPress={() => sumar()} />
         
         </View>
     );
 }
-
-// Le he quitado los parentesis por que yo quiero llamar a la funcion sumar no definirla
 
