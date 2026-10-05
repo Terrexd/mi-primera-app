@@ -3,7 +3,7 @@
 -----------
 EJERCICIO 5
 -----------
-
+*/
 import { StyleSheet, Text } from "react-native";
 
 export default function LibroItem({titulo}) {
@@ -17,10 +17,11 @@ const styles = StyleSheet.create({
     },
 });
 
+/*
 -----------
 EJERCICIO 6
 -----------
-*/
+
 
 import { StyleSheet, Text, View } from "react-native";
 
@@ -41,3 +42,4 @@ const styles = StyleSheet.create({
         borderBottomColor: "#eee"
     },
 });
+*/
