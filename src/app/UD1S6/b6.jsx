@@ -16,7 +16,7 @@ export default function App() {
             <Text> Portada: </Text>
             {libros.map((l) => (
                 <Card key={l.id}>
-                    <LibroItem  />
+                    <LibroItem  titulo={l.titulo}/>
                 </Card>
             ))}
         </View>
