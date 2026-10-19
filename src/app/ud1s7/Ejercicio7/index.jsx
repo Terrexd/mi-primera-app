@@ -1,7 +1,7 @@
 import { Link, router } from "expo-router";
 import { useState } from "react";
 import { Pressable, View } from "react-native";
-import LibroItem from "../components/LibroItem";
+import LibroItem from "./components/LibroItem";
 
 const librosIniciales = [
     { id: "1", titulo: "Cien años de soledad", autor: "Gabriel García Márquez" },
